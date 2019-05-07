@@ -1,17 +1,17 @@
 @font-face {
-  font-family: 'URIJI-Icons';
-  src:  url('fonts/URIJI-Icons.eot?ija4wn');
-  src:  url('fonts/URIJI-Icons.eot?ija4wn#iefix') format('embedded-opentype'),
-    url('fonts/URIJI-Icons.ttf?ija4wn') format('truetype'),
-    url('fonts/URIJI-Icons.woff?ija4wn') format('woff'),
-    url('fonts/URIJI-Icons.svg?ija4wn#URIJI-Icons') format('svg');
+  font-family: 'uriji-icons';
+  src:  url('fonts/uriji-icons.eot?k92yit');
+  src:  url('fonts/uriji-icons.eot?k92yit#iefix') format('embedded-opentype'),
+    url('fonts/uriji-icons.ttf?k92yit') format('truetype'),
+    url('fonts/uriji-icons.woff?k92yit') format('woff'),
+    url('fonts/uriji-icons.svg?k92yit#uriji-icons') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 
 [class^="uj-"], [class*=" uj-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: 'URIJI-Icons' !important;
+  font-family: 'uriji-icons' !important;
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -158,4 +158,13 @@
 }
 .uj-send:before {
   content: "\e930";
+}
+.uj-bookmark-alt:before {
+  content: "\e90a";
+}
+.uj-donation-alt:before {
+  content: "\e90b";
+}
+.uj-lock-open:before {
+  content: "\e90c";
 }
