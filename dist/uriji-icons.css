@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'uriji-icons';
-  src:  url('fonts/uriji-icons.eot?bk0bjn');
-  src:  url('fonts/uriji-icons.eot?bk0bjn#iefix') format('embedded-opentype'),
-    url('fonts/uriji-icons.ttf?bk0bjn') format('truetype'),
-    url('fonts/uriji-icons.woff?bk0bjn') format('woff'),
-    url('fonts/uriji-icons.svg?bk0bjn#uriji-icons') format('svg');
+  src:  url('fonts/uriji-icons.eot?nxnmyk');
+  src:  url('fonts/uriji-icons.eot?nxnmyk#iefix') format('embedded-opentype'),
+    url('fonts/uriji-icons.ttf?nxnmyk') format('truetype'),
+    url('fonts/uriji-icons.woff?nxnmyk') format('woff'),
+    url('fonts/uriji-icons.svg?nxnmyk#uriji-icons') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -215,6 +215,10 @@
 }
 .uj-exclamation-circle:before {
   content: "\e97a";
+  color: #4f4f4f;
+}
+.uj-external-link:before {
+  content: "\e980";
   color: #4f4f4f;
 }
 .uj-eye:before {

@@ -2,11 +2,11 @@
 
 @font-face {
   font-family: '#{$icomoon-font-family}';
-  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?bk0bjn');
-  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?bk0bjn#iefix') format('embedded-opentype'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?bk0bjn') format('truetype'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?bk0bjn') format('woff'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?bk0bjn##{$icomoon-font-family}') format('svg');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?nxnmyk');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?nxnmyk#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?nxnmyk') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?nxnmyk') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?nxnmyk##{$icomoon-font-family}') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -29,799 +29,805 @@
 
 .uj-align-center {
   &:before {
-    content: $uj-align-center;     
+    content: $uj-align-center;
     color: #4f4f4f;
   }
 }
 .uj-align-left {
   &:before {
-    content: $uj-align-left;     
+    content: $uj-align-left;
     color: #4f4f4f;
   }
 }
 .uj-align-right {
   &:before {
-    content: $uj-align-right;     
+    content: $uj-align-right;
     color: #4f4f4f;
   }
 }
 .uj-angle-down {
   &:before {
-    content: $uj-angle-down;     
+    content: $uj-angle-down;
     color: #4f4f4f;
   }
 }
 .uj-angle-left {
   &:before {
-    content: $uj-angle-left;     
+    content: $uj-angle-left;
     color: #4f4f4f;
   }
 }
 .uj-angle-right {
   &:before {
-    content: $uj-angle-right;     
+    content: $uj-angle-right;
     color: #4f4f4f;
   }
 }
 .uj-angle-up {
   &:before {
-    content: $uj-angle-up;     
+    content: $uj-angle-up;
     color: #4f4f4f;
   }
 }
 .uj-arrow-down {
   &:before {
-    content: $uj-arrow-down;     
+    content: $uj-arrow-down;
     color: #4f4f4f;
   }
 }
 .uj-arrow-left {
   &:before {
-    content: $uj-arrow-left;     
+    content: $uj-arrow-left;
     color: #4f4f4f;
   }
 }
 .uj-arrow-right {
   &:before {
-    content: $uj-arrow-right;     
+    content: $uj-arrow-right;
     color: #4f4f4f;
   }
 }
 .uj-arrow-up {
   &:before {
-    content: $uj-arrow-up;     
+    content: $uj-arrow-up;
     color: #4f4f4f;
   }
 }
 .uj-ban {
   &:before {
-    content: $uj-ban;     
+    content: $uj-ban;
     color: #4f4f4f;
   }
 }
 .uj-bell {
   &:before {
-    content: $uj-bell;     
+    content: $uj-bell;
     color: #4f4f4f;
   }
 }
 .uj-birthday-cake {
   &:before {
-    content: $uj-birthday-cake;     
+    content: $uj-birthday-cake;
     color: #4f4f4f;
   }
 }
 .uj-bookmark {
   &:before {
-    content: $uj-bookmark;     
+    content: $uj-bookmark;
     color: #4f4f4f;
   }
 }
 .uj-bookmark-o {
   &:before {
-    content: $uj-bookmark-o;     
+    content: $uj-bookmark-o;
     color: #4f4f4f;
   }
 }
 .uj-broom {
   &:before {
-    content: $uj-broom;     
+    content: $uj-broom;
     color: #4f4f4f;
   }
 }
 .uj-bug {
   &:before {
-    content: $uj-bug;     
+    content: $uj-bug;
     color: #4f4f4f;
   }
 }
 .uj-camera {
   &:before {
-    content: $uj-camera;     
+    content: $uj-camera;
     color: #4f4f4f;
   }
 }
 .uj-caret-down {
   &:before {
-    content: $uj-caret-down;     
+    content: $uj-caret-down;
     color: #4f4f4f;
   }
 }
 .uj-caret-left {
   &:before {
-    content: $uj-caret-left;     
+    content: $uj-caret-left;
     color: #4f4f4f;
   }
 }
 .uj-caret-right {
   &:before {
-    content: $uj-caret-right;     
+    content: $uj-caret-right;
     color: #4f4f4f;
   }
 }
 .uj-caret-up {
   &:before {
-    content: $uj-caret-up;     
+    content: $uj-caret-up;
     color: #4f4f4f;
   }
 }
 .uj-chart {
   &:before {
-    content: $uj-chart;     
+    content: $uj-chart;
     color: #4f4f4f;
   }
 }
 .uj-check {
   &:before {
-    content: $uj-check;     
+    content: $uj-check;
     color: #4f4f4f;
   }
 }
 .uj-chevron-circle-down {
   &:before {
-    content: $uj-chevron-circle-down;     
+    content: $uj-chevron-circle-down;
     color: #4f4f4f;
   }
 }
 .uj-chevron-circle-left {
   &:before {
-    content: $uj-chevron-circle-left;     
+    content: $uj-chevron-circle-left;
     color: #4f4f4f;
   }
 }
 .uj-chevron-circle-right {
   &:before {
-    content: $uj-chevron-circle-right;     
+    content: $uj-chevron-circle-right;
     color: #4f4f4f;
   }
 }
 .uj-chevron-circle-up {
   &:before {
-    content: $uj-chevron-circle-up;     
+    content: $uj-chevron-circle-up;
     color: #4f4f4f;
   }
 }
 .uj-chevron-down {
   &:before {
-    content: $uj-chevron-down;     
+    content: $uj-chevron-down;
     color: #4f4f4f;
   }
 }
 .uj-chevron-left {
   &:before {
-    content: $uj-chevron-left;     
+    content: $uj-chevron-left;
     color: #4f4f4f;
   }
 }
 .uj-chevron-right {
   &:before {
-    content: $uj-chevron-right;     
+    content: $uj-chevron-right;
     color: #4f4f4f;
   }
 }
 .uj-chevron-up {
   &:before {
-    content: $uj-chevron-up;     
+    content: $uj-chevron-up;
     color: #4f4f4f;
   }
 }
 .uj-cog {
   &:before {
-    content: $uj-cog;     
+    content: $uj-cog;
     color: #4f4f4f;
   }
 }
 .uj-coin-head {
   &:before {
-    content: $uj-coin-head;     
+    content: $uj-coin-head;
     color: #4f4f4f;
   }
 }
 .uj-coin-tail {
   &:before {
-    content: $uj-coin-tail;     
+    content: $uj-coin-tail;
     color: #4f4f4f;
   }
 }
 .uj-comments-dots {
   &:before {
-    content: $uj-comments-dots;     
+    content: $uj-comments-dots;
     color: #4f4f4f;
   }
 }
 .uj-copy {
   &:before {
-    content: $uj-copy;     
+    content: $uj-copy;
     color: #4f4f4f;
   }
 }
 .uj-credit-card {
   &:before {
-    content: $uj-credit-card;     
+    content: $uj-credit-card;
     color: #4f4f4f;
   }
 }
 .uj-credit-card-alt {
   &:before {
-    content: $uj-credit-card-alt;     
+    content: $uj-credit-card-alt;
     color: #4f4f4f;
   }
 }
 .uj-crop {
   &:before {
-    content: $uj-crop;     
+    content: $uj-crop;
     color: #4f4f4f;
   }
 }
 .uj-dream {
   &:before {
-    content: $uj-dream;     
+    content: $uj-dream;
     color: #4f4f4f;
   }
 }
 .uj-dream-completed {
   &:before {
-    content: $uj-dream-completed;     
+    content: $uj-dream-completed;
     color: #4f4f4f;
   }
 }
 .uj-edit {
   &:before {
-    content: $uj-edit;     
+    content: $uj-edit;
     color: #4f4f4f;
   }
 }
 .uj-ellipsis-v {
   &:before {
-    content: $uj-ellipsis-v;     
+    content: $uj-ellipsis-v;
     color: #4f4f4f;
   }
 }
 .uj-envelope {
   &:before {
-    content: $uj-envelope;     
+    content: $uj-envelope;
     color: #4f4f4f;
   }
 }
 .uj-envelope-alt {
   &:before {
-    content: $uj-envelope-alt;     
+    content: $uj-envelope-alt;
     color: #4f4f4f;
   }
 }
 .uj-exclamation-circle {
   &:before {
-    content: $uj-exclamation-circle;     
+    content: $uj-exclamation-circle;
+    color: #4f4f4f;
+  }
+}
+.uj-external-link {
+  &:before {
+    content: $uj-external-link;
     color: #4f4f4f;
   }
 }
 .uj-eye {
   &:before {
-    content: $uj-eye;     
+    content: $uj-eye;
     color: #4f4f4f;
   }
 }
 .uj-eye-slash {
   &:before {
-    content: $uj-eye-slash;     
+    content: $uj-eye-slash;
     color: #4f4f4f;
   }
 }
 .uj-file {
   &:before {
-    content: $uj-file;     
+    content: $uj-file;
     color: #4f4f4f;
   }
 }
 .uj-film {
   &:before {
-    content: $uj-film;     
+    content: $uj-film;
     color: #4f4f4f;
   }
 }
 .uj-forward {
   &:before {
-    content: $uj-forward;     
+    content: $uj-forward;
     color: #4f4f4f;
   }
 }
 .uj-gift {
   &:before {
-    content: $uj-gift;     
+    content: $uj-gift;
     color: #4f4f4f;
   }
 }
 .uj-globe {
   &:before {
-    content: $uj-globe;     
+    content: $uj-globe;
     color: #4f4f4f;
   }
 }
 .uj-heart {
   &:before {
-    content: $uj-heart;     
+    content: $uj-heart;
     color: #4f4f4f;
   }
 }
 .uj-heart-o {
   &:before {
-    content: $uj-heart-o;     
+    content: $uj-heart-o;
     color: #4f4f4f;
   }
 }
 .uj-image {
   &:before {
-    content: $uj-image;     
+    content: $uj-image;
     color: #4f4f4f;
   }
 }
 .uj-key {
   &:before {
-    content: $uj-key;     
+    content: $uj-key;
     color: #4f4f4f;
   }
 }
 .uj-language {
   &:before {
-    content: $uj-language;     
+    content: $uj-language;
     color: #4f4f4f;
   }
 }
 .uj-lock {
   &:before {
-    content: $uj-lock;     
+    content: $uj-lock;
     color: #4f4f4f;
   }
 }
 .uj-lock-open {
   &:before {
-    content: $uj-lock-open;     
+    content: $uj-lock-open;
     color: #4f4f4f;
   }
 }
 .uj-login {
   &:before {
-    content: $uj-login;     
+    content: $uj-login;
     color: #4f4f4f;
   }
 }
 .uj-login-alt {
   &:before {
-    content: $uj-login-alt;     
+    content: $uj-login-alt;
     color: #4f4f4f;
   }
 }
 .uj-logout {
   &:before {
-    content: $uj-logout;     
+    content: $uj-logout;
     color: #4f4f4f;
   }
 }
 .uj-logout-alt {
   &:before {
-    content: $uj-logout-alt;     
+    content: $uj-logout-alt;
     color: #4f4f4f;
   }
 }
 .uj-music-square {
   &:before {
-    content: $uj-music-square;     
+    content: $uj-music-square;
     color: #4f4f4f;
   }
 }
 .uj-paper-plane {
   &:before {
-    content: $uj-paper-plane;     
+    content: $uj-paper-plane;
     color: #4f4f4f;
   }
 }
 .uj-pencil {
   &:before {
-    content: $uj-pencil;     
+    content: $uj-pencil;
     color: #4f4f4f;
   }
 }
 .uj-people {
   &:before {
-    content: $uj-people;     
+    content: $uj-people;
     color: #4f4f4f;
   }
 }
 .uj-play {
   &:before {
-    content: $uj-play;     
+    content: $uj-play;
     color: #4f4f4f;
   }
 }
 .uj-plus {
   &:before {
-    content: $uj-plus;     
+    content: $uj-plus;
     color: #4f4f4f;
   }
 }
 .uj-plus-circle {
   &:before {
-    content: $uj-plus-circle;     
+    content: $uj-plus-circle;
     color: #4f4f4f;
   }
 }
 .uj-question-circle {
   &:before {
-    content: $uj-question-circle;     
+    content: $uj-question-circle;
     color: #4f4f4f;
   }
 }
 .uj-redo {
   &:before {
-    content: $uj-redo;     
+    content: $uj-redo;
     color: #4f4f4f;
   }
 }
 .uj-rewind {
   &:before {
-    content: $uj-rewind;     
+    content: $uj-rewind;
     color: #4f4f4f;
   }
 }
 .uj-rocket {
   &:before {
-    content: $uj-rocket;     
+    content: $uj-rocket;
     color: #4f4f4f;
   }
 }
 .uj-sand-clock {
   &:before {
-    content: $uj-sand-clock;     
+    content: $uj-sand-clock;
     color: #4f4f4f;
   }
 }
 .uj-search {
   &:before {
-    content: $uj-search;     
+    content: $uj-search;
     color: #4f4f4f;
   }
 }
 .uj-shopping-cart {
   &:before {
-    content: $uj-shopping-cart;     
+    content: $uj-shopping-cart;
     color: #4f4f4f;
   }
 }
 .uj-sliders {
   &:before {
-    content: $uj-sliders;     
+    content: $uj-sliders;
     color: #4f4f4f;
   }
 }
 .uj-star {
   &:before {
-    content: $uj-star;     
+    content: $uj-star;
     color: #4f4f4f;
   }
 }
 .uj-star-o {
   &:before {
-    content: $uj-star-o;     
+    content: $uj-star-o;
     color: #4f4f4f;
   }
 }
 .uj-story {
   &:before {
-    content: $uj-story;     
+    content: $uj-story;
     color: #4f4f4f;
   }
 }
 .uj-table-tennis {
   &:before {
-    content: $uj-table-tennis;     
+    content: $uj-table-tennis;
     color: #4f4f4f;
   }
 }
 .uj-terms {
   &:before {
-    content: $uj-terms;     
+    content: $uj-terms;
     color: #4f4f4f;
   }
 }
 .uj-times {
   &:before {
-    content: $uj-times;     
+    content: $uj-times;
     color: #4f4f4f;
   }
 }
 .uj-times-circle {
   &:before {
-    content: $uj-times-circle;     
+    content: $uj-times-circle;
     color: #4f4f4f;
   }
 }
 .uj-trash {
   &:before {
-    content: $uj-trash;     
+    content: $uj-trash;
     color: #4f4f4f;
   }
 }
 .uj-trophy {
   &:before {
-    content: $uj-trophy;     
+    content: $uj-trophy;
     color: #4f4f4f;
   }
 }
 .uj-user {
   &:before {
-    content: $uj-user;     
+    content: $uj-user;
     color: #4f4f4f;
   }
 }
 .uj-user-check {
   &:before {
-    content: $uj-user-check;     
+    content: $uj-user-check;
     color: #4f4f4f;
   }
 }
 .uj-user-plus {
   &:before {
-    content: $uj-user-plus;     
+    content: $uj-user-plus;
     color: #4f4f4f;
   }
 }
 .uj-youtube-video {
   &:before {
-    content: $uj-youtube-video;     
+    content: $uj-youtube-video;
     color: #4f4f4f;
   }
 }
 .uj-bell-color .path1 {
   &:before {
-    content: $uj-bell-color-path1;  
+    content: $uj-bell-color-path1;
     color: rgb(242, 201, 76);
   }
 }
 .uj-bell-color .path2 {
   &:before {
-    content: $uj-bell-color-path2;  
-    margin-left: -1em;  
+    content: $uj-bell-color-path2;
+    margin-left: -1em;
     color: rgb(242, 201, 76);
   }
 }
 .uj-bell-color .path3 {
   &:before {
-    content: $uj-bell-color-path3;  
-    margin-left: -1em;  
+    content: $uj-bell-color-path3;
+    margin-left: -1em;
     color: rgb(242, 201, 76);
   }
 }
 .uj-bell-color .path4 {
   &:before {
-    content: $uj-bell-color-path4;  
-    margin-left: -1em;  
+    content: $uj-bell-color-path4;
+    margin-left: -1em;
     color: rgb(242, 201, 76);
   }
 }
 .uj-bell-color .path5 {
   &:before {
-    content: $uj-bell-color-path5;  
-    margin-left: -1em;  
+    content: $uj-bell-color-path5;
+    margin-left: -1em;
     color: rgb(79, 79, 79);
   }
 }
 .uj-bell-color .path6 {
   &:before {
-    content: $uj-bell-color-path6;  
-    margin-left: -1em;  
+    content: $uj-bell-color-path6;
+    margin-left: -1em;
     color: rgb(79, 79, 79);
   }
 }
 .uj-bell-color .path7 {
   &:before {
-    content: $uj-bell-color-path7;  
-    margin-left: -1em;  
+    content: $uj-bell-color-path7;
+    margin-left: -1em;
     color: rgb(255, 253, 248);
   }
 }
 .uj-bell-color .path8 {
   &:before {
-    content: $uj-bell-color-path8;  
-    margin-left: -1em;  
+    content: $uj-bell-color-path8;
+    margin-left: -1em;
     color: rgb(175, 145, 62);
   }
 }
 .uj-bell-color .path9 {
   &:before {
-    content: $uj-bell-color-path9;  
-    margin-left: -1em;  
+    content: $uj-bell-color-path9;
+    margin-left: -1em;
     color: rgb(175, 145, 62);
   }
 }
 .uj-bell-color .path10 {
   &:before {
-    content: $uj-bell-color-path10;  
-    margin-left: -1em;  
+    content: $uj-bell-color-path10;
+    margin-left: -1em;
     color: rgb(255, 253, 248);
   }
 }
 .uj-comments-dots-color .path1 {
   &:before {
-    content: $uj-comments-dots-color-path1;  
+    content: $uj-comments-dots-color-path1;
     color: rgb(233, 252, 255);
   }
 }
 .uj-comments-dots-color .path2 {
   &:before {
-    content: $uj-comments-dots-color-path2;  
-    margin-left: -1em;  
+    content: $uj-comments-dots-color-path2;
+    margin-left: -1em;
     color: rgb(79, 79, 79);
   }
 }
 .uj-comments-dots-color .path3 {
   &:before {
-    content: $uj-comments-dots-color-path3;  
-    margin-left: -1em;  
+    content: $uj-comments-dots-color-path3;
+    margin-left: -1em;
     color: rgb(79, 79, 79);
   }
 }
 .uj-comments-dots-color .path4 {
   &:before {
-    content: $uj-comments-dots-color-path4;  
-    margin-left: -1em;  
+    content: $uj-comments-dots-color-path4;
+    margin-left: -1em;
     color: rgb(79, 79, 79);
   }
 }
 .uj-comments-dots-color .path5 {
   &:before {
-    content: $uj-comments-dots-color-path5;  
-    margin-left: -1em;  
+    content: $uj-comments-dots-color-path5;
+    margin-left: -1em;
     color: rgb(8, 146, 205);
   }
 }
 .uj-comments-dots-color .path6 {
   &:before {
-    content: $uj-comments-dots-color-path6;  
-    margin-left: -1em;  
+    content: $uj-comments-dots-color-path6;
+    margin-left: -1em;
     color: rgb(255, 255, 255);
   }
 }
 .uj-comments-dots-color .path7 {
   &:before {
-    content: $uj-comments-dots-color-path7;  
-    margin-left: -1em;  
+    content: $uj-comments-dots-color-path7;
+    margin-left: -1em;
     color: rgb(255, 255, 255);
   }
 }
 .uj-comments-dots-color .path8 {
   &:before {
-    content: $uj-comments-dots-color-path8;  
-    margin-left: -1em;  
+    content: $uj-comments-dots-color-path8;
+    margin-left: -1em;
     color: rgb(255, 255, 255);
   }
 }
 .uj-credit-card-color .path1 {
   &:before {
-    content: $uj-credit-card-color-path1;  
+    content: $uj-credit-card-color-path1;
     color: rgb(242, 201, 76);
   }
 }
 .uj-credit-card-color .path2 {
   &:before {
-    content: $uj-credit-card-color-path2;  
-    margin-left: -1.3916015625em;  
+    content: $uj-credit-card-color-path2;
+    margin-left: -1.3916015625em;
     color: rgb(175, 145, 62);
   }
 }
 .uj-credit-card-color .path3 {
   &:before {
-    content: $uj-credit-card-color-path3;  
-    margin-left: -1.3916015625em;  
+    content: $uj-credit-card-color-path3;
+    margin-left: -1.3916015625em;
     color: rgb(175, 145, 62);
   }
 }
 .uj-credit-card-color .path4 {
   &:before {
-    content: $uj-credit-card-color-path4;  
-    margin-left: -1.3916015625em;  
+    content: $uj-credit-card-color-path4;
+    margin-left: -1.3916015625em;
     color: rgb(244, 244, 244);
   }
 }
 .uj-credit-card-color .path5 {
   &:before {
-    content: $uj-credit-card-color-path5;  
-    margin-left: -1.3916015625em;  
+    content: $uj-credit-card-color-path5;
+    margin-left: -1.3916015625em;
     color: rgb(244, 244, 244);
   }
 }
 .uj-credit-card-color .path6 {
   &:before {
-    content: $uj-credit-card-color-path6;  
-    margin-left: -1.3916015625em;  
+    content: $uj-credit-card-color-path6;
+    margin-left: -1.3916015625em;
     color: rgb(79, 79, 79);
   }
 }
 .uj-rocket-color .path1 {
   &:before {
-    content: $uj-rocket-color-path1;  
+    content: $uj-rocket-color-path1;
     color: rgb(151, 151, 151);
   }
 }
 .uj-rocket-color .path2 {
   &:before {
-    content: $uj-rocket-color-path2;  
-    margin-left: -1em;  
+    content: $uj-rocket-color-path2;
+    margin-left: -1em;
     color: rgb(79, 79, 79);
   }
 }
 .uj-rocket-color .path3 {
   &:before {
-    content: $uj-rocket-color-path3;  
-    margin-left: -1em;  
+    content: $uj-rocket-color-path3;
+    margin-left: -1em;
     color: rgb(79, 79, 79);
   }
 }
 .uj-rocket-color .path4 {
   &:before {
-    content: $uj-rocket-color-path4;  
-    margin-left: -1em;  
+    content: $uj-rocket-color-path4;
+    margin-left: -1em;
     color: rgb(79, 79, 79);
   }
 }
 .uj-rocket-color .path5 {
   &:before {
-    content: $uj-rocket-color-path5;  
-    margin-left: -1em;  
+    content: $uj-rocket-color-path5;
+    margin-left: -1em;
     color: rgb(79, 79, 79);
   }
 }
 .uj-rocket-color .path6 {
   &:before {
-    content: $uj-rocket-color-path6;  
-    margin-left: -1em;  
+    content: $uj-rocket-color-path6;
+    margin-left: -1em;
     color: rgb(79, 79, 79);
   }
 }
 .uj-rocket-color .path7 {
   &:before {
-    content: $uj-rocket-color-path7;  
-    margin-left: -1em;  
+    content: $uj-rocket-color-path7;
+    margin-left: -1em;
     color: rgb(79, 79, 79);
   }
 }
 .uj-rocket-color .path8 {
   &:before {
-    content: $uj-rocket-color-path8;  
-    margin-left: -1em;  
+    content: $uj-rocket-color-path8;
+    margin-left: -1em;
     color: rgb(247, 246, 245);
   }
 }
 .uj-rocket-color .path9 {
   &:before {
-    content: $uj-rocket-color-path9;  
-    margin-left: -1em;  
+    content: $uj-rocket-color-path9;
+    margin-left: -1em;
     color: rgb(10, 146, 205);
   }
 }
 .uj-rocket-color .path10 {
   &:before {
-    content: $uj-rocket-color-path10;  
-    margin-left: -1em;  
+    content: $uj-rocket-color-path10;
+    margin-left: -1em;
     color: rgb(79, 79, 79);
   }
 }
