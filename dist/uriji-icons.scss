@@ -2,11 +2,11 @@
 
 @font-face {
   font-family: '#{$icomoon-font-family}';
-  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?9z8zd1');
-  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?9z8zd1#iefix') format('embedded-opentype'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?9z8zd1') format('truetype'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?9z8zd1') format('woff'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?9z8zd1##{$icomoon-font-family}') format('svg');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?qsscks');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?qsscks#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?qsscks') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?qsscks') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?qsscks##{$icomoon-font-family}') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -40,6 +40,11 @@
 .uj-align-right {
   &:before {
     content: $uj-align-right;
+  }
+}
+.uj-analytics {
+  &:before {
+    content: $uj-analytics;
   }
 }
 .uj-angle-down {
@@ -82,9 +87,19 @@
     content: $uj-arrow-up;
   }
 }
+.uj-atom {
+  &:before {
+    content: $uj-atom;
+  }
+}
 .uj-ban {
   &:before {
     content: $uj-ban;
+  }
+}
+.uj-basketball-ball {
+  &:before {
+    content: $uj-basketball-ball;
   }
 }
 .uj-bell {
@@ -192,14 +207,24 @@
     content: $uj-chevron-up;
   }
 }
+.uj-circuit-board {
+  &:before {
+    content: $uj-circuit-board;
+  }
+}
 .uj-cog {
   &:before {
     content: $uj-cog;
   }
 }
-.uj-coin-head {
+.uj-coins-head {
   &:before {
-    content: $uj-coin-head;
+    content: $uj-coins-head;
+  }
+}
+.uj-coins-tail {
+  &:before {
+    content: $uj-coins-tail;
   }
 }
 .uj-coin-tail {
@@ -297,6 +322,16 @@
     content: $uj-forward;
   }
 }
+.uj-galea {
+  &:before {
+    content: $uj-galea;
+  }
+}
+.uj-gamepad {
+  &:before {
+    content: $uj-gamepad;
+  }
+}
 .uj-gift {
   &:before {
     content: $uj-gift;
@@ -307,6 +342,26 @@
     content: $uj-globe;
   }
 }
+.uj-graduation-cap {
+  &:before {
+    content: $uj-graduation-cap;
+  }
+}
+.uj-hand-heart {
+  &:before {
+    content: $uj-hand-heart;
+  }
+}
+.uj-hands-hope {
+  &:before {
+    content: $uj-hands-hope;
+  }
+}
+.uj-health {
+  &:before {
+    content: $uj-health;
+  }
+}
 .uj-heart {
   &:before {
     content: $uj-heart;
@@ -315,6 +370,11 @@
 .uj-heart-o {
   &:before {
     content: $uj-heart-o;
+  }
+}
+.uj-heel {
+  &:before {
+    content: $uj-heel;
   }
 }
 .uj-image {
@@ -367,9 +427,19 @@
     content: $uj-music-square;
   }
 }
+.uj-newspaper {
+  &:before {
+    content: $uj-newspaper;
+  }
+}
 .uj-paper-plane {
   &:before {
     content: $uj-paper-plane;
+  }
+}
+.uj-paw {
+  &:before {
+    content: $uj-paw;
   }
 }
 .uj-pencil {
@@ -380,6 +450,11 @@
 .uj-people {
   &:before {
     content: $uj-people;
+  }
+}
+.uj-plane {
+  &:before {
+    content: $uj-plane;
   }
 }
 .uj-play {
@@ -407,6 +482,11 @@
     content: $uj-redo;
   }
 }
+.uj-relationship {
+  &:before {
+    content: $uj-relationship;
+  }
+}
 .uj-rewind {
   &:before {
     content: $uj-rewind;
@@ -422,6 +502,11 @@
     content: $uj-sand-clock;
   }
 }
+.uj-scroll {
+  &:before {
+    content: $uj-scroll;
+  }
+}
 .uj-search {
   &:before {
     content: $uj-search;
@@ -435,6 +520,11 @@
 .uj-sliders {
   &:before {
     content: $uj-sliders;
+  }
+}
+.uj-speech {
+  &:before {
+    content: $uj-speech;
   }
 }
 .uj-star {
@@ -460,6 +550,11 @@
 .uj-terms {
   &:before {
     content: $uj-terms;
+  }
+}
+.uj-theater-masks {
+  &:before {
+    content: $uj-theater-masks;
   }
 }
 .uj-times {
@@ -495,6 +590,16 @@
 .uj-user-plus {
   &:before {
     content: $uj-user-plus;
+  }
+}
+.uj-users {
+  &:before {
+    content: $uj-users;
+  }
+}
+.uj-utensils {
+  &:before {
+    content: $uj-utensils;
   }
 }
 .uj-youtube-video {
