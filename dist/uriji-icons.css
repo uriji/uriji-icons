@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'uriji-icons';
-  src:  url('fonts/uriji-icons.eot?bi4hc7');
-  src:  url('fonts/uriji-icons.eot?bi4hc7#iefix') format('embedded-opentype'),
-    url('fonts/uriji-icons.ttf?bi4hc7') format('truetype'),
-    url('fonts/uriji-icons.woff?bi4hc7') format('woff'),
-    url('fonts/uriji-icons.svg?bi4hc7#uriji-icons') format('svg');
+  src:  url('fonts/uriji-icons.eot?fpuler');
+  src:  url('fonts/uriji-icons.eot?fpuler#iefix') format('embedded-opentype'),
+    url('fonts/uriji-icons.ttf?fpuler') format('truetype'),
+    url('fonts/uriji-icons.woff?fpuler') format('woff'),
+    url('fonts/uriji-icons.svg?fpuler#uriji-icons') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,6 +25,60 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.uj-adult:before {
+  content: "\e99f";
+}
+.uj-balance-scale:before {
+  content: "\e9a0";
+}
+.uj-law-and-government:before {
+  content: "\e9a0";
+}
+.uj-car:before {
+  content: "\e9a1";
+}
+.uj-autos-and-vehicles:before {
+  content: "\e9a1";
+}
+.uj-chess-rook:before {
+  content: "\e9a2";
+}
+.uj-hobbies-and-leisure:before {
+  content: "\e9a2";
+}
+.uj-gift-o:before {
+  content: "\e9a3";
+}
+.uj-hand-people:before {
+  content: "\e9a4";
+}
+.uj-online-communities:before {
+  content: "\e9a4";
+}
+.uj-home:before {
+  content: "\e9a5";
+}
+.uj-home-and-garden:before {
+  content: "\e9a5";
+}
+.uj-lock-o:before {
+  content: "\e9a6";
+}
+.uj-lock-open-o:before {
+  content: "\e9a7";
+}
+.uj-sale-sign:before {
+  content: "\e9a8";
+}
+.uj-real-estate:before {
+  content: "\e9a8";
+}
+.uj-shopping-bag:before {
+  content: "\e9a9";
+}
+.uj-shopping:before {
+  content: "\e9a9";
+}
 .uj-accessibility:before {
   content: "\e900";
 }
@@ -38,6 +92,9 @@
   content: "\e903";
 }
 .uj-analytics:before {
+  content: "\e904";
+}
+.uj-business-and-industrial:before {
   content: "\e904";
 }
 .uj-angle-down:before {
@@ -67,10 +124,16 @@
 .uj-atom:before {
   content: "\e90d";
 }
+.uj-science:before {
+  content: "\e90d";
+}
 .uj-ban:before {
   content: "\e90e";
 }
 .uj-basketball-ball:before {
+  content: "\e90f";
+}
+.uj-sports:before {
   content: "\e90f";
 }
 .uj-bell:before {
@@ -188,6 +251,9 @@
 .uj-circuit-board:before {
   content: "\e92f";
 }
+.uj-computers-and-electronics:before {
+  content: "\e92f";
+}
 .uj-cog:before {
   content: "\e930";
 }
@@ -198,6 +264,9 @@
   content: "\e932";
 }
 .uj-coin-tail:before {
+  content: "\e933";
+}
+.uj-finance:before {
   content: "\e933";
 }
 .uj-comments-dots:before {
@@ -328,7 +397,13 @@
 .uj-galea:before {
   content: "\e955";
 }
+.uj-reference:before {
+  content: "\e955";
+}
 .uj-gamepad:before {
+  content: "\e956";
+}
+.uj-games:before {
   content: "\e956";
 }
 .uj-gift:before {
@@ -340,10 +415,16 @@
 .uj-graduation-cap:before {
   content: "\e959";
 }
+.uj-jobs-and-education:before {
+  content: "\e959";
+}
 .uj-hand-heart:before {
   content: "\e95a";
 }
 .uj-hands-hope:before {
+  content: "\e95b";
+}
+.uj-sensitive-subjects:before {
   content: "\e95b";
 }
 .uj-health:before {
@@ -356,6 +437,9 @@
   content: "\e95e";
 }
 .uj-heel:before {
+  content: "\e95f";
+}
+.uj-beauty-and-fitness:before {
   content: "\e95f";
 }
 .uj-image:before {
@@ -388,10 +472,16 @@
 .uj-microphone:before {
   content: "\e969";
 }
+.uj-internet-and-telecom:before {
+  content: "\e969";
+}
 .uj-music-square:before {
   content: "\e96a";
 }
 .uj-newspaper:before {
+  content: "\e96b";
+}
+.uj-news:before {
   content: "\e96b";
 }
 .uj-paperclip:before {
@@ -406,6 +496,9 @@
 .uj-paw:before {
   content: "\e96f";
 }
+.uj-pets-and-animals:before {
+  content: "\e96f";
+}
 .uj-pencil:before {
   content: "\e970";
 }
@@ -413,6 +506,9 @@
   content: "\e971";
 }
 .uj-plane:before {
+  content: "\e972";
+}
+.uj-travel:before {
   content: "\e972";
 }
 .uj-play:before {
@@ -497,6 +593,9 @@
 .uj-scroll:before {
   content: "\e987";
 }
+.uj-books-and-literature:before {
+  content: "\e987";
+}
 .uj-search:before {
   content: "\e988";
 }
@@ -530,6 +629,9 @@
 .uj-theater-masks:before {
   content: "\e992";
 }
+.uj-arts-and-entertainment:before {
+  content: "\e992";
+}
 .uj-times:before {
   content: "\e993";
 }
@@ -557,7 +659,13 @@
 .uj-users:before {
   content: "\e99b";
 }
+.uj-people-and-society:before {
+  content: "\e99b";
+}
 .uj-utensils:before {
+  content: "\e99c";
+}
+.uj-food-and-drink:before {
   content: "\e99c";
 }
 .uj-video:before {

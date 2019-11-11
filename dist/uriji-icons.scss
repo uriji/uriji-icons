@@ -1,30 +1,135 @@
-@import "variables";
+@import 'variables';
 
 @font-face {
   font-family: '#{$icomoon-font-family}';
-  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?bi4hc7');
-  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?bi4hc7#iefix') format('embedded-opentype'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?bi4hc7') format('truetype'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?bi4hc7') format('woff'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?bi4hc7##{$icomoon-font-family}') format('svg');
   font-weight: normal;
   font-style: normal;
+  src: url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?fpuler');
+  src: url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?fpuler#iefix') format('embedded-opentype'), url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?fpuler') format('truetype'), url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?fpuler') format('woff'), url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?fpuler##{$icomoon-font-family}') format('svg');
   font-display: block;
 }
 
-[class^="uj-"], [class*=" uj-"] {
+[class^='uj-'], [class*=' uj-'] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: '#{$icomoon-font-family}' !important;
-  speak: none;
-  font-style: normal;
   font-weight: normal;
+  font-style: normal;
   font-variant: normal;
-  text-transform: none;
   line-height: 1;
+  text-transform: none;
+  speak: none;
 
   /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.uj-adult {
+  &:before {
+    content: $uj-adult;
+  }
+}
+
+.uj-balance-scale {
+  &:before {
+    content: $uj-balance-scale;
+  }
+}
+
+.uj-law-and-government {
+  &:before {
+    content: $uj-law-and-government;
+  }
+}
+
+.uj-car {
+  &:before {
+    content: $uj-car;
+  }
+}
+
+.uj-autos-and-vehicles {
+  &:before {
+    content: $uj-autos-and-vehicles;
+  }
+}
+
+.uj-chess-rook {
+  &:before {
+    content: $uj-chess-rook;
+  }
+}
+
+.uj-hobbies-and-leisure {
+  &:before {
+    content: $uj-hobbies-and-leisure;
+  }
+}
+
+.uj-gift-o {
+  &:before {
+    content: $uj-gift-o;
+  }
+}
+
+.uj-hand-people {
+  &:before {
+    content: $uj-hand-people;
+  }
+}
+
+.uj-online-communities {
+  &:before {
+    content: $uj-online-communities;
+  }
+}
+
+.uj-home {
+  &:before {
+    content: $uj-home;
+  }
+}
+
+.uj-home-and-garden {
+  &:before {
+    content: $uj-home-and-garden;
+  }
+}
+
+.uj-lock-o {
+  &:before {
+    content: $uj-lock-o;
+  }
+}
+
+.uj-lock-open-o {
+  &:before {
+    content: $uj-lock-open-o;
+  }
+}
+
+.uj-sale-sign {
+  &:before {
+    content: $uj-sale-sign;
+  }
+}
+
+.uj-real-estate {
+  &:before {
+    content: $uj-real-estate;
+  }
+}
+
+.uj-shopping-bag {
+  &:before {
+    content: $uj-shopping-bag;
+  }
+}
+
+.uj-shopping {
+  &:before {
+    content: $uj-shopping;
+  }
 }
 
 .uj-accessibility {
@@ -32,858 +137,1123 @@
     content: $uj-accessibility;
   }
 }
+
 .uj-align-center {
   &:before {
     content: $uj-align-center;
   }
 }
+
 .uj-align-left {
   &:before {
     content: $uj-align-left;
   }
 }
+
 .uj-align-right {
   &:before {
     content: $uj-align-right;
   }
 }
+
 .uj-analytics {
   &:before {
     content: $uj-analytics;
   }
 }
+
+.uj-business-and-industrial {
+  &:before {
+    content: $uj-business-and-industrial;
+  }
+}
+
 .uj-angle-down {
   &:before {
     content: $uj-angle-down;
   }
 }
+
 .uj-angle-left {
   &:before {
     content: $uj-angle-left;
   }
 }
+
 .uj-angle-right {
   &:before {
     content: $uj-angle-right;
   }
 }
+
 .uj-angle-up {
   &:before {
     content: $uj-angle-up;
   }
 }
+
 .uj-arrow-down {
   &:before {
     content: $uj-arrow-down;
   }
 }
+
 .uj-arrow-left {
   &:before {
     content: $uj-arrow-left;
   }
 }
+
 .uj-arrow-right {
   &:before {
     content: $uj-arrow-right;
   }
 }
+
 .uj-arrow-up {
   &:before {
     content: $uj-arrow-up;
   }
 }
+
 .uj-atom {
   &:before {
     content: $uj-atom;
   }
 }
+
+.uj-science {
+  &:before {
+    content: $uj-science;
+  }
+}
+
 .uj-ban {
   &:before {
     content: $uj-ban;
   }
 }
+
 .uj-basketball-ball {
   &:before {
     content: $uj-basketball-ball;
   }
 }
+
+.uj-sports {
+  &:before {
+    content: $uj-sports;
+  }
+}
+
 .uj-bell {
   &:before {
     content: $uj-bell;
   }
 }
+
 .uj-bell-color .path1 {
   &:before {
     content: $uj-bell-color-path1;
     color: rgb(242, 201, 76);
   }
 }
+
 .uj-bell-color .path2 {
   &:before {
-    content: $uj-bell-color-path2;
     margin-left: -1em;
+    content: $uj-bell-color-path2;
     color: rgb(242, 201, 76);
   }
 }
+
 .uj-bell-color .path3 {
   &:before {
-    content: $uj-bell-color-path3;
     margin-left: -1em;
+    content: $uj-bell-color-path3;
     color: rgb(242, 201, 76);
   }
 }
+
 .uj-bell-color .path4 {
   &:before {
-    content: $uj-bell-color-path4;
     margin-left: -1em;
+    content: $uj-bell-color-path4;
     color: rgb(242, 201, 76);
   }
 }
+
 .uj-bell-color .path5 {
   &:before {
-    content: $uj-bell-color-path5;
     margin-left: -1em;
+    content: $uj-bell-color-path5;
     color: rgb(79, 79, 79);
   }
 }
+
 .uj-bell-color .path6 {
   &:before {
-    content: $uj-bell-color-path6;
     margin-left: -1em;
+    content: $uj-bell-color-path6;
     color: rgb(79, 79, 79);
   }
 }
+
 .uj-bell-color .path7 {
   &:before {
-    content: $uj-bell-color-path7;
     margin-left: -1em;
+    content: $uj-bell-color-path7;
     color: rgb(255, 253, 248);
   }
 }
+
 .uj-bell-color .path8 {
   &:before {
-    content: $uj-bell-color-path8;
     margin-left: -1em;
+    content: $uj-bell-color-path8;
     color: rgb(175, 145, 62);
   }
 }
+
 .uj-bell-color .path9 {
   &:before {
-    content: $uj-bell-color-path9;
     margin-left: -1em;
+    content: $uj-bell-color-path9;
     color: rgb(175, 145, 62);
   }
 }
+
 .uj-bell-color .path10 {
   &:before {
-    content: $uj-bell-color-path10;
     margin-left: -1em;
+    content: $uj-bell-color-path10;
     color: rgb(255, 253, 248);
   }
 }
+
 .uj-birthday-cake {
   &:before {
     content: $uj-birthday-cake;
   }
 }
+
 .uj-bookmark {
   &:before {
     content: $uj-bookmark;
   }
 }
+
 .uj-bookmark-o {
   &:before {
     content: $uj-bookmark-o;
   }
 }
+
 .uj-broom {
   &:before {
     content: $uj-broom;
   }
 }
+
 .uj-bug {
   &:before {
     content: $uj-bug;
   }
 }
+
 .uj-camera {
   &:before {
     content: $uj-camera;
   }
 }
+
 .uj-caret-down {
   &:before {
     content: $uj-caret-down;
   }
 }
+
 .uj-caret-left {
   &:before {
     content: $uj-caret-left;
   }
 }
+
 .uj-caret-right {
   &:before {
     content: $uj-caret-right;
   }
 }
+
 .uj-caret-up {
   &:before {
     content: $uj-caret-up;
   }
 }
+
 .uj-chart {
   &:before {
     content: $uj-chart;
   }
 }
+
 .uj-check {
   &:before {
     content: $uj-check;
   }
 }
+
 .uj-chevron-circle-down {
   &:before {
     content: $uj-chevron-circle-down;
   }
 }
+
 .uj-chevron-circle-left {
   &:before {
     content: $uj-chevron-circle-left;
   }
 }
+
 .uj-chevron-circle-right {
   &:before {
     content: $uj-chevron-circle-right;
   }
 }
+
 .uj-chevron-circle-up {
   &:before {
     content: $uj-chevron-circle-up;
   }
 }
+
 .uj-chevron-down {
   &:before {
     content: $uj-chevron-down;
   }
 }
+
 .uj-chevron-left {
   &:before {
     content: $uj-chevron-left;
   }
 }
+
 .uj-chevron-right {
   &:before {
     content: $uj-chevron-right;
   }
 }
+
 .uj-chevron-up {
   &:before {
     content: $uj-chevron-up;
   }
 }
+
 .uj-circuit-board {
   &:before {
     content: $uj-circuit-board;
   }
 }
+
+.uj-computers-and-electronics {
+  &:before {
+    content: $uj-computers-and-electronics;
+  }
+}
+
 .uj-cog {
   &:before {
     content: $uj-cog;
   }
 }
+
 .uj-coins-head {
   &:before {
     content: $uj-coins-head;
   }
 }
+
 .uj-coins-tail {
   &:before {
     content: $uj-coins-tail;
   }
 }
+
 .uj-coin-tail {
   &:before {
     content: $uj-coin-tail;
   }
 }
+
+.uj-finance {
+  &:before {
+    content: $uj-finance;
+  }
+}
+
 .uj-comments-dots {
   &:before {
     content: $uj-comments-dots;
   }
 }
+
 .uj-comments-dots-color .path1 {
   &:before {
     content: $uj-comments-dots-color-path1;
     color: rgb(233, 252, 255);
   }
 }
+
 .uj-comments-dots-color .path2 {
   &:before {
-    content: $uj-comments-dots-color-path2;
     margin-left: -1em;
+    content: $uj-comments-dots-color-path2;
     color: rgb(79, 79, 79);
   }
 }
+
 .uj-comments-dots-color .path3 {
   &:before {
-    content: $uj-comments-dots-color-path3;
     margin-left: -1em;
+    content: $uj-comments-dots-color-path3;
     color: rgb(79, 79, 79);
   }
 }
+
 .uj-comments-dots-color .path4 {
   &:before {
-    content: $uj-comments-dots-color-path4;
     margin-left: -1em;
+    content: $uj-comments-dots-color-path4;
     color: rgb(79, 79, 79);
   }
 }
+
 .uj-comments-dots-color .path5 {
   &:before {
-    content: $uj-comments-dots-color-path5;
     margin-left: -1em;
+    content: $uj-comments-dots-color-path5;
     color: rgb(8, 146, 205);
   }
 }
+
 .uj-comments-dots-color .path6 {
   &:before {
-    content: $uj-comments-dots-color-path6;
     margin-left: -1em;
+    content: $uj-comments-dots-color-path6;
     color: rgb(255, 255, 255);
   }
 }
+
 .uj-comments-dots-color .path7 {
   &:before {
-    content: $uj-comments-dots-color-path7;
     margin-left: -1em;
+    content: $uj-comments-dots-color-path7;
     color: rgb(255, 255, 255);
   }
 }
+
 .uj-comments-dots-color .path8 {
   &:before {
-    content: $uj-comments-dots-color-path8;
     margin-left: -1em;
+    content: $uj-comments-dots-color-path8;
     color: rgb(255, 255, 255);
   }
 }
+
 .uj-copy {
   &:before {
     content: $uj-copy;
   }
 }
+
 .uj-credit-card {
   &:before {
     content: $uj-credit-card;
   }
 }
+
 .uj-credit-card-alt {
   &:before {
     content: $uj-credit-card-alt;
   }
 }
+
 .uj-credit-card-color .path1 {
   &:before {
     content: $uj-credit-card-color-path1;
     color: rgb(242, 201, 76);
   }
 }
+
 .uj-credit-card-color .path2 {
   &:before {
-    content: $uj-credit-card-color-path2;
     margin-left: -1em;
+    content: $uj-credit-card-color-path2;
     color: rgb(175, 145, 62);
   }
 }
+
 .uj-credit-card-color .path3 {
   &:before {
-    content: $uj-credit-card-color-path3;
     margin-left: -1em;
+    content: $uj-credit-card-color-path3;
     color: rgb(175, 145, 62);
   }
 }
+
 .uj-credit-card-color .path4 {
   &:before {
-    content: $uj-credit-card-color-path4;
     margin-left: -1em;
+    content: $uj-credit-card-color-path4;
     color: rgb(244, 244, 244);
   }
 }
+
 .uj-credit-card-color .path5 {
   &:before {
-    content: $uj-credit-card-color-path5;
     margin-left: -1em;
+    content: $uj-credit-card-color-path5;
     color: rgb(244, 244, 244);
   }
 }
+
 .uj-credit-card-color .path6 {
   &:before {
-    content: $uj-credit-card-color-path6;
     margin-left: -1em;
+    content: $uj-credit-card-color-path6;
     color: rgb(79, 79, 79);
   }
 }
+
 .uj-crop {
   &:before {
     content: $uj-crop;
   }
 }
+
 .uj-dollar-sign {
   &:before {
     content: $uj-dollar-sign;
   }
 }
+
 .uj-dream {
   &:before {
     content: $uj-dream;
   }
 }
+
 .uj-dream-completed {
   &:before {
     content: $uj-dream-completed;
   }
 }
+
 .uj-edit {
   &:before {
     content: $uj-edit;
   }
 }
+
 .uj-ellipsis-v {
   &:before {
     content: $uj-ellipsis-v;
   }
 }
+
 .uj-envelope {
   &:before {
     content: $uj-envelope;
   }
 }
+
 .uj-envelope-alt {
   &:before {
     content: $uj-envelope-alt;
   }
 }
+
 .uj-exclamation-circle {
   &:before {
     content: $uj-exclamation-circle;
   }
 }
+
 .uj-external-link {
   &:before {
     content: $uj-external-link;
   }
 }
+
 .uj-eye {
   &:before {
     content: $uj-eye;
   }
 }
+
 .uj-eye-slash {
   &:before {
     content: $uj-eye-slash;
   }
 }
+
 .uj-file {
   &:before {
     content: $uj-file;
   }
 }
+
 .uj-film {
   &:before {
     content: $uj-film;
   }
 }
+
 .uj-forward {
   &:before {
     content: $uj-forward;
   }
 }
+
 .uj-galea {
   &:before {
     content: $uj-galea;
   }
 }
+
+.uj-reference {
+  &:before {
+    content: $uj-reference;
+  }
+}
+
 .uj-gamepad {
   &:before {
     content: $uj-gamepad;
   }
 }
+
+.uj-games {
+  &:before {
+    content: $uj-games;
+  }
+}
+
 .uj-gift {
   &:before {
     content: $uj-gift;
   }
 }
+
 .uj-globe {
   &:before {
     content: $uj-globe;
   }
 }
+
 .uj-graduation-cap {
   &:before {
     content: $uj-graduation-cap;
   }
 }
+
+.uj-jobs-and-education {
+  &:before {
+    content: $uj-jobs-and-education;
+  }
+}
+
 .uj-hand-heart {
   &:before {
     content: $uj-hand-heart;
   }
 }
+
 .uj-hands-hope {
   &:before {
     content: $uj-hands-hope;
   }
 }
+
+.uj-sensitive-subjects {
+  &:before {
+    content: $uj-sensitive-subjects;
+  }
+}
+
 .uj-health {
   &:before {
     content: $uj-health;
   }
 }
+
 .uj-heart {
   &:before {
     content: $uj-heart;
   }
 }
+
 .uj-heart-o {
   &:before {
     content: $uj-heart-o;
   }
 }
+
 .uj-heel {
   &:before {
     content: $uj-heel;
   }
 }
+
+.uj-beauty-and-fitness {
+  &:before {
+    content: $uj-beauty-and-fitness;
+  }
+}
+
 .uj-image {
   &:before {
     content: $uj-image;
   }
 }
+
 .uj-key {
   &:before {
     content: $uj-key;
   }
 }
+
 .uj-language {
   &:before {
     content: $uj-language;
   }
 }
+
 .uj-lock {
   &:before {
     content: $uj-lock;
   }
 }
+
 .uj-lock-open {
   &:before {
     content: $uj-lock-open;
   }
 }
+
 .uj-login {
   &:before {
     content: $uj-login;
   }
 }
+
 .uj-login-alt {
   &:before {
     content: $uj-login-alt;
   }
 }
+
 .uj-logout {
   &:before {
     content: $uj-logout;
   }
 }
+
 .uj-logout-alt {
   &:before {
     content: $uj-logout-alt;
   }
 }
+
 .uj-microphone {
   &:before {
     content: $uj-microphone;
   }
 }
+
+.uj-internet-and-telecom {
+  &:before {
+    content: $uj-internet-and-telecom;
+  }
+}
+
 .uj-music-square {
   &:before {
     content: $uj-music-square;
   }
 }
+
 .uj-newspaper {
   &:before {
     content: $uj-newspaper;
   }
 }
+
+.uj-news {
+  &:before {
+    content: $uj-news;
+  }
+}
+
 .uj-paperclip {
   &:before {
     content: $uj-paperclip;
   }
 }
+
 .uj-paper-plane {
   &:before {
     content: $uj-paper-plane;
   }
 }
+
 .uj-pause {
   &:before {
     content: $uj-pause;
   }
 }
+
 .uj-paw {
   &:before {
     content: $uj-paw;
   }
 }
+
+.uj-pets-and-animals {
+  &:before {
+    content: $uj-pets-and-animals;
+  }
+}
+
 .uj-pencil {
   &:before {
     content: $uj-pencil;
   }
 }
+
 .uj-people {
   &:before {
     content: $uj-people;
   }
 }
+
 .uj-plane {
   &:before {
     content: $uj-plane;
   }
 }
+
+.uj-travel {
+  &:before {
+    content: $uj-travel;
+  }
+}
+
 .uj-play {
   &:before {
     content: $uj-play;
   }
 }
+
 .uj-plus {
   &:before {
     content: $uj-plus;
   }
 }
+
 .uj-plus-circle {
   &:before {
     content: $uj-plus-circle;
   }
 }
+
 .uj-question-circle {
   &:before {
     content: $uj-question-circle;
   }
 }
+
 .uj-redo {
   &:before {
     content: $uj-redo;
   }
 }
+
 .uj-relationship {
   &:before {
     content: $uj-relationship;
   }
 }
+
 .uj-resend {
   &:before {
     content: $uj-resend;
   }
 }
+
 .uj-rewind {
   &:before {
     content: $uj-rewind;
   }
 }
+
 .uj-rocket {
   &:before {
     content: $uj-rocket;
   }
 }
+
 .uj-rocket-color .path1 {
   &:before {
     content: $uj-rocket-color-path1;
     color: rgb(151, 151, 151);
   }
 }
+
 .uj-rocket-color .path2 {
   &:before {
-    content: $uj-rocket-color-path2;
     margin-left: -1em;
+    content: $uj-rocket-color-path2;
     color: rgb(79, 79, 79);
   }
 }
+
 .uj-rocket-color .path3 {
   &:before {
-    content: $uj-rocket-color-path3;
     margin-left: -1em;
+    content: $uj-rocket-color-path3;
     color: rgb(79, 79, 79);
   }
 }
+
 .uj-rocket-color .path4 {
   &:before {
-    content: $uj-rocket-color-path4;
     margin-left: -1em;
+    content: $uj-rocket-color-path4;
     color: rgb(79, 79, 79);
   }
 }
+
 .uj-rocket-color .path5 {
   &:before {
-    content: $uj-rocket-color-path5;
     margin-left: -1em;
+    content: $uj-rocket-color-path5;
     color: rgb(79, 79, 79);
   }
 }
+
 .uj-rocket-color .path6 {
   &:before {
-    content: $uj-rocket-color-path6;
     margin-left: -1em;
+    content: $uj-rocket-color-path6;
     color: rgb(79, 79, 79);
   }
 }
+
 .uj-rocket-color .path7 {
   &:before {
-    content: $uj-rocket-color-path7;
     margin-left: -1em;
+    content: $uj-rocket-color-path7;
     color: rgb(79, 79, 79);
   }
 }
+
 .uj-rocket-color .path8 {
   &:before {
-    content: $uj-rocket-color-path8;
     margin-left: -1em;
+    content: $uj-rocket-color-path8;
     color: rgb(247, 246, 245);
   }
 }
+
 .uj-rocket-color .path9 {
   &:before {
-    content: $uj-rocket-color-path9;
     margin-left: -1em;
+    content: $uj-rocket-color-path9;
     color: rgb(10, 146, 205);
   }
 }
+
 .uj-rocket-color .path10 {
   &:before {
-    content: $uj-rocket-color-path10;
     margin-left: -1em;
+    content: $uj-rocket-color-path10;
     color: rgb(79, 79, 79);
   }
 }
+
 .uj-sand-clock {
   &:before {
     content: $uj-sand-clock;
   }
 }
+
 .uj-scroll {
   &:before {
     content: $uj-scroll;
   }
 }
+
+.uj-books-and-literature {
+  &:before {
+    content: $uj-books-and-literature;
+  }
+}
+
 .uj-search {
   &:before {
     content: $uj-search;
   }
 }
+
 .uj-share {
   &:before {
     content: $uj-share;
   }
 }
+
 .uj-shopping-cart {
   &:before {
     content: $uj-shopping-cart;
   }
 }
+
 .uj-sliders {
   &:before {
     content: $uj-sliders;
   }
 }
+
 .uj-speech {
   &:before {
     content: $uj-speech;
   }
 }
+
 .uj-star {
   &:before {
     content: $uj-star;
   }
 }
+
 .uj-star-o {
   &:before {
     content: $uj-star-o;
   }
 }
+
 .uj-story {
   &:before {
     content: $uj-story;
   }
 }
+
 .uj-table-tennis {
   &:before {
     content: $uj-table-tennis;
   }
 }
+
 .uj-terms {
   &:before {
     content: $uj-terms;
   }
 }
+
 .uj-theater-masks {
   &:before {
     content: $uj-theater-masks;
   }
 }
+
+.uj-arts-and-entertainment {
+  &:before {
+    content: $uj-arts-and-entertainment;
+  }
+}
+
 .uj-times {
   &:before {
     content: $uj-times;
   }
 }
+
 .uj-times-circle {
   &:before {
     content: $uj-times-circle;
   }
 }
+
 .uj-trash {
   &:before {
     content: $uj-trash;
   }
 }
+
 .uj-trophy {
   &:before {
     content: $uj-trophy;
   }
 }
+
 .uj-user {
   &:before {
     content: $uj-user;
   }
 }
+
 .uj-user-check {
   &:before {
     content: $uj-user-check;
   }
 }
+
 .uj-user-lock {
   &:before {
     content: $uj-user-lock;
   }
 }
+
 .uj-user-plus {
   &:before {
     content: $uj-user-plus;
   }
 }
+
 .uj-users {
   &:before {
     content: $uj-users;
   }
 }
+
+.uj-people-and-society {
+  &:before {
+    content: $uj-people-and-society;
+  }
+}
+
 .uj-utensils {
   &:before {
     content: $uj-utensils;
   }
 }
+
+.uj-food-and-drink {
+  &:before {
+    content: $uj-food-and-drink;
+  }
+}
+
 .uj-video {
   &:before {
     content: $uj-video;
   }
 }
+
 .uj-youtube-video {
   &:before {
     content: $uj-youtube-video;
   }
 }
-
